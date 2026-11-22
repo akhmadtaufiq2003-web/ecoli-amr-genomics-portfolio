@@ -1,0 +1,34 @@
+# Selected/downloaded genomics data (not for repository upload)
+data/manifest.csv
+data/accessions.txt
+data/raw/
+data/assemblies/
+*.fasta
+*.fa
+*.fna
+*.fastq
+*.fq
+*.fastq.gz
+*.fq.gz
+*.bam
+*.sam
+*.cram
+*.gff
+*.gff3
+*.gbk
+*.zip
+*.tar.gz
+
+# Local outputs: never mistake unit-test fixtures for observed results
+results/
+*.log
+
+# Python/editor
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db

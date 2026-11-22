@@ -1,0 +1,10 @@
+# Starting environment specification; record exact resolved package versions at run time.
+name: ecoli-amr-portfolio
+channels:
+  - conda-forge
+  - bioconda
+dependencies:
+  - python=3.11
+  - ncbi-datasets-cli
+  - ncbi-amrfinderplus
+  - unzip
